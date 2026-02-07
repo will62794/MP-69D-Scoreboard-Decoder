@@ -2,7 +2,7 @@
 
 The code in this repository is used to translate the raw electronic signal data from the [FairPlay MP-69D](https://nesc-timekeeping.fandom.com/wiki/Fair-Play_MP-69) into meaningful serial data that can be used in other applications. For example, an Arduino Uno receives the raw electronic signals from the Fairplay controller, turns those raw signals into serial data which it then sends out over USB to a computer running the `serialDecoder.py` Python script, which then integrates the live scoreboard data into some other software application i.e. video streaming/live graphics. 
 
-This code was originally intended to be used in conjunction with a Raspberry Pi to generate live graphic overlays for sports game video streams. You can see a demo video of a hardware prototype running this code [here](https://www.youtube.com/watch?v=JgkRyoUVtak).
+This code was originally intended to be used in conjunction with a Raspberry Pi to generate live graphic overlays for sports game video streams. You can see a demo video of a hardware prototype running this code [here](https://www.youtube.com/watch?v=JgkRyoUVtak), and there are also some additional notes on the scoreboard protocol [here](docs/MP-69D%20Scoreboard%20Protocol%20Notes.pdf).
 
 ## Code Overview
 
